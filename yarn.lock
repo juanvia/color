@@ -14,17 +14,22 @@
   dependencies:
     "@cspotcode/source-map-consumer" "0.8.0"
 
-"@juanvia/matrix@0.1.4":
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/@juanvia/matrix/-/matrix-0.1.4.tgz#5abcc56fe54ae99f2f0d6fa53048bdabe494b4cd"
-  integrity sha512-zIine8vgfugJL/2Fpacf6uDFeQ2bVm23n0MAjkoAm7n2YAA2/he/FeJB/4XnTGkcUMEEFnhfUOLMzTcmEo+oZw==
+"@fantasy-color/types@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@fantasy-color/types/-/types-2.1.0.tgz#39e892fdc35d24bb42a19d592b47ede3f8665888"
+  integrity sha512-OREWZch2RV8wYE8IFBxMwgE2rvM4QRC8dMgmvrhpNBeeK+acvBTxaahQ+KbXjkyLMxaXf2GhH+krAPqBGTDF7g==
 
-"@juanvia/polynomial@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@juanvia/polynomial/-/polynomial-0.1.0.tgz#b9bcdd1ed9c3c1a903e724acdf963bbab68cdc05"
-  integrity sha512-QCtjJ8NSb3XyVGHd3nUbply9Fplwvkc/dBqE81dnC6wZmUvNpnR4+PjspDPjNs1DpThimBhEe2dqam0fgXTaHQ==
+"@juanvia/matrix@0.1.9", "@juanvia/matrix@^0.1.9":
+  version "0.1.9"
+  resolved "https://registry.yarnpkg.com/@juanvia/matrix/-/matrix-0.1.9.tgz#f851014195d063a0f7a091eb1130491db7254934"
+  integrity sha512-am1+t98P+KMj4RlRfHBsQy7tkRRbsuWxMW3QaXISjVYBPvw2E7RhRyfLbp7zMRhCBIgbmya7FtZxjM1izZ/5qw==
+
+"@juanvia/polynomial@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@juanvia/polynomial/-/polynomial-0.1.2.tgz#404be168493f1216217e60d663ed1185a462672d"
+  integrity sha512-Rx/V9R+pyJFo/Ozpzf9GfvTuwCctmQv+ZlSH+heHImAXhiwtohRWxh3Ywp5rL72oM/9PHUBwnR+Zb+63blpzlQ==
   dependencies:
-    "@juanvia/matrix" "0.1.4"
+    "@juanvia/matrix" "0.1.9"
     chalk "^4.1.2"
     fp-ts "^2.11.4"
     path "^0.12.7"

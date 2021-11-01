@@ -1,13 +1,4 @@
-import {
-  Either,
-  right,
-  left,
-  chain,
-  map,
-  filterOrElse,
-  fromNullable,
-  fromOption,
-} from "fp-ts/lib/Either"
+import { right, left, chain, map, filterOrElse, fromNullable, fromOption } from "fp-ts/lib/Either"
 import * as MayBe from "fp-ts/Option"
 import { pipe } from "fp-ts/pipeable"
 import webColors from "./web-colors"

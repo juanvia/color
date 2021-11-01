@@ -1,5 +1,5 @@
 import { Polynomial } from "@juanvia/polynomial"
-import Either from "fp-ts/lib/Either"
+import { Either } from "fp-ts/lib/Either"
 
 //#region Hashes
 export type RGBHash = {
@@ -43,8 +43,8 @@ export type MakeRGBHashFromNameFunction = (colorName: string) => Either<Error, R
 //#endregion
 
 //#region Samples
-export type Sample = number[][]
-export type Samples = Array<Sample>
+export type Sample = [RGBTriple, RGBTriple]
+export type Samples = Sample[]
 export type RGBPolynomials = Polynomial[]
-export type PolynomialsFromSamplesFunction = (samples: Samples) => RGBPolynomials
+export type PolynomialsFromSamplesFunction = (samples: Samples, degree: number) => RGBPolynomials
 //#endregion

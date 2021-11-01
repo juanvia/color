@@ -1,6 +1,6 @@
 import { right, left, chain, map, filterOrElse, fromNullable, fromOption } from "fp-ts/lib/Either"
 import * as MayBe from "fp-ts/Option"
-import { pipe } from "fp-ts/pipeable"
+import { pipe } from "fp-ts/function"
 import webColors from "./web-colors"
 import { match } from "fp-ts-contrib/RegExp"
 import {

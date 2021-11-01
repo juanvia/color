@@ -1,4 +1,4 @@
-import { makeAdjusterFromSamples } from "../src/transformers/from-points"
+import { makeAdjusterFromSamples } from "../src"
 import chalk from "chalk"
 import { samples } from "../fixtures/color/examples"
 

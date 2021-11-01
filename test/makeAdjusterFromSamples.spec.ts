@@ -1,5 +1,5 @@
 import { samples } from "../fixtures/color/examples"
-import { makeAdjusterFromSamples } from "../src/transformers/from-points"
+import { makeAdjusterFromSamples } from "../src"
 
 export const tests = [
   [
